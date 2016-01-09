@@ -29,7 +29,6 @@ class App extends Component {
             dispatch(setVisibilityFilter(filter))
           }
         />
-        <button onClick={() => console.log(this.props)}>Get State</button>
       </div>
     )
   }
